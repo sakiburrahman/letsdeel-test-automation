@@ -1,9 +1,9 @@
 # Ignore
 cypress.env.json
-# cypress/test-reports/
+cypress/test-reports/
 cypress/downloads/
 cypress/screenshots/
 cypress/videos/
-# allure_results/
-# allure_reports/
+allure_results/
+allure_reports/
 # node_modules/
