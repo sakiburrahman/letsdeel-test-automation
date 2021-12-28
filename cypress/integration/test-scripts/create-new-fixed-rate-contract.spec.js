@@ -12,7 +12,7 @@ var fixedRateContractPage = new FixedRateContractPage();
 var contractsPage = new ContractsPage();
 
 
-describe('Authentify user can create a new fixed ratte contract', () => {
+describe('Authentify user can create a new fixed rate contract', () => {
 
     before(function () {
 

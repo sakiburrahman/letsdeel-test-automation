@@ -1,0 +1,4824 @@
+{
+  "uid" : "133b55bd0f9595e",
+  "name" : "Should be able to create a new fixed rate contract",
+  "fullName" : "Should be able to create a new fixed rate contract",
+  "historyId" : "090c1668a3da0ed266548d4db8fcc08a",
+  "time" : {
+    "start" : 1640703449610,
+    "stop" : 1640703461031,
+    "duration" : 11421
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "generateFixture",
+      "time" : {
+        "start" : 1640703431805
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "writeFile ./cypress/fixtures/contractName.json",
+        "time" : {
+          "start" : 1640703431809,
+          "stop" : 1640703431823,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "navigateToDeelSite",
+      "time" : {
+        "start" : 1640703431823
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "fixture (\"loginCredentials\")",
+        "time" : {
+          "start" : 1640703431824,
+          "stop" : 1640703431830,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "visit https://app.deel.training/login",
+        "time" : {
+          "start" : 1640703431831,
+          "stop" : 1640703432970,
+          "duration" : 1139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.deel.training/lookups?documents[]=bankAccounts&documents[]=countries&documents[]=currencies&documents[]=cryptoCurrencies&documents[]=entityTypes&documents[]=payAdjustments&documents[]=paymentMethods&documents[]=withdrawMethods&documents[]=perks&documents[]=multipleCurrencyCountries&documents[]=integrations&documents[]=features&documents[]=employeeInfo&documents[]=whatsNew",
+        "time" : {
+          "start" : 1640703432969,
+          "stop" : 1640703432969,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log Web Site has been loaded successfully",
+        "time" : {
+          "start" : 1640703432970,
+          "stop" : 1640703432972,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "loginToDeelSite",
+      "time" : {
+        "start" : 1640703432972,
+        "stop" : 1640703448037,
+        "duration" : 15065
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .position-relative > div",
+        "time" : {
+          "start" : 1640703432976,
+          "stop" : 1640703436115,
+          "duration" : 3139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
+        "time" : {
+          "start" : 1640703436115,
+          "stop" : 1640703436115,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/commons/countries/biMonthly",
+        "time" : {
+          "start" : 1640703436115,
+          "stop" : 1640703436115,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "isVisible (\".position-relative > div\")",
+        "time" : {
+          "start" : 1640703436115
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "get .position-relative > div",
+          "time" : {
+            "start" : 1640703436115,
+            "stop" : 1640703436130,
+            "duration" : 15
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "assert expected **<div>** to be **visible**",
+          "time" : {
+            "start" : 1640703436130,
+            "stop" : 1640703436130,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get .position-relative > div",
+        "time" : {
+          "start" : 1640703436130,
+          "stop" : 1640703436140,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "contains Log in using Google",
+        "time" : {
+          "start" : 1640703436140,
+          "stop" : 1640703436149,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Log In Using Google] button is being displayed",
+        "time" : {
+          "start" : 1640703436149,
+          "stop" : 1640703436153,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get .login-signup-link > div",
+        "time" : {
+          "start" : 1640703436153,
+          "stop" : 1640703436164,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "isVisible (\".login-signup-link > div\")",
+        "time" : {
+          "start" : 1640703436164
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "get .login-signup-link > div",
+          "time" : {
+            "start" : 1640703436164,
+            "stop" : 1640703436182,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "assert expected **<div>** to be **visible**",
+          "time" : {
+            "start" : 1640703436182,
+            "stop" : 1640703436182,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Sign Up] link is being displayed",
+        "time" : {
+          "start" : 1640703436182,
+          "stop" : 1640703436188,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get [name=\"email\"]",
+        "time" : {
+          "start" : 1640703436188,
+          "stop" : 1640703436203,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "isVisible (\"[name=\"email\"]\")",
+        "time" : {
+          "start" : 1640703436203
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "get [name=\"email\"]",
+          "time" : {
+            "start" : 1640703436204,
+            "stop" : 1640703436231,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "assert expected **<input>** to be **visible**",
+          "time" : {
+            "start" : 1640703436231,
+            "stop" : 1640703436231,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Email Address] input field is being displayed",
+        "time" : {
+          "start" : 1640703436231,
+          "stop" : 1640703436233,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "fixture (\"loginCredentials\")",
+        "time" : {
+          "start" : 1640703436233,
+          "stop" : 1640703436233,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get [name=\"email\"]",
+        "time" : {
+          "start" : 1640703436234,
+          "stop" : 1640703436248,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "clear",
+        "time" : {
+          "start" : 1640703436248,
+          "stop" : 1640703436617,
+          "duration" : 369
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Eamil Address] input box has been cleared",
+        "time" : {
+          "start" : 1640703436617,
+          "stop" : 1640703436623,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get [name=\"email\"]",
+        "time" : {
+          "start" : 1640703436623,
+          "stop" : 1640703436643,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "type deelautomationtest@yopmail.com",
+        "time" : {
+          "start" : 1640703436643,
+          "stop" : 1640703437184,
+          "duration" : 541
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log Email has been entered in [Email Address] input box",
+        "time" : {
+          "start" : 1640703437184,
+          "stop" : 1640703437187,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get [name=\"password\"]",
+        "time" : {
+          "start" : 1640703437188,
+          "stop" : 1640703437205,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "isVisible (\"[name=\"password\"]\")",
+        "time" : {
+          "start" : 1640703437205
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "get [name=\"password\"]",
+          "time" : {
+            "start" : 1640703437206,
+            "stop" : 1640703437227,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "assert expected **<input>** to be **visible**",
+          "time" : {
+            "start" : 1640703437226,
+            "stop" : 1640703437226,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Password] input field is being displayed",
+        "time" : {
+          "start" : 1640703437227,
+          "stop" : 1640703437232,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "fixture (\"loginCredentials\")",
+        "time" : {
+          "start" : 1640703437232,
+          "stop" : 1640703437232,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get [name=\"password\"]",
+        "time" : {
+          "start" : 1640703437234,
+          "stop" : 1640703437247,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "clear",
+        "time" : {
+          "start" : 1640703437247,
+          "stop" : 1640703437479,
+          "duration" : 232
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Password] input box has been cleared",
+        "time" : {
+          "start" : 1640703437479,
+          "stop" : 1640703437484,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get [name=\"password\"]",
+        "time" : {
+          "start" : 1640703437484,
+          "stop" : 1640703437503,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "type Espak11111!!!!!",
+        "time" : {
+          "start" : 1640703437503,
+          "stop" : 1640703437884,
+          "duration" : 381
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log Password has been entered in [Password] input box",
+        "time" : {
+          "start" : 1640703437884,
+          "stop" : 1640703437887,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get .mt-10 > div",
+        "time" : {
+          "start" : 1640703437887,
+          "stop" : 1640703437898,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "isVisible (\".mt-10 > div\")",
+        "time" : {
+          "start" : 1640703437898
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "get .mt-10 > div",
+          "time" : {
+            "start" : 1640703437899,
+            "stop" : 1640703437922,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "assert expected **<div>** to be **visible**",
+          "time" : {
+            "start" : 1640703437922,
+            "stop" : 1640703437922,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log [Log In] button is being displayed",
+        "time" : {
+          "start" : 1640703437922,
+          "stop" : 1640703437925,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get .mt-10 > div",
+        "time" : {
+          "start" : 1640703437925,
+          "stop" : 1640703437944,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1640703437944,
+          "stop" : 1640703438121,
+          "duration" : 177
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST https://api.deel.training/login",
+        "time" : {
+          "start" : 1640703438121,
+          "stop" : 1640703438121,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "log Clicked on [Log In] Button",
+        "time" : {
+          "start" : 1640703438121,
+          "stop" : 1640703438125,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
+        "time" : {
+          "start" : 1640703438125,
+          "stop" : 1640703448037,
+          "duration" : 9912
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/profiles/me",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST 200 https://www.google.com/recaptcha/api2/reload?k=6LfBsOkUAAAAAGMTXqhjn2Thz4lERi2lC5o7h-7f",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "new url https://app.deel.training/",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "page load --page loaded--",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/compliance",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/organization_profiles?organizationId=118218",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/legal_entities?organizationId=118218",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/team",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.deel.training/profiles/me",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.deel.training/contracts/custom_fields_parameters",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET https://api.deel.training/payments/account",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/lookups?documents[]=bankAccounts&documents[]=countries&documents[]=currencies&documents[]=cryptoCurrencies&documents[]=entityTypes&documents[]=payAdjustments&documents[]=paymentMethods&documents[]=withdrawMethods&documents[]=perks&documents[]=multipleCurrencyCountries&documents[]=integrations&documents[]=features&documents[]=employeeInfo&documents[]=whatsNew",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/commons/countries/biMonthly",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/profiles/me",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard",
+        "time" : {
+          "start" : 1640703448036,
+          "stop" : 1640703448036,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/organization_profiles?organizationId=118218",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/legal_entities?organizationId=118218",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://grsm.io/pr/gpk/pk_PWkZSrp4L6H1BRQpkArdNl67khUIeR59",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/team",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST 200 https://x.clearbit.com/v1/p",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/profiles/me",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/contracts/custom_fields_parameters",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/payments/account",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/organization_profiles?organizationId=118218",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/payments/account",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/compliance",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/transactions/graph?limit=1m",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard/widgets/employees_onboarding_tracker?limit=1",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard/widgets/pending-time-offs",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard/widgets/pending_eor_amendments",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/dashboard/widgets/is_missing_payroll_step",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/payments/account",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/mass_approve/total",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET 200 https://api.deel.training/transactions/graph?limit=1m",
+        "time" : {
+          "start" : 1640703448037,
+          "stop" : 1640703448037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 89,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".mb-2:nth-child(1) .sidebar-option-p\")",
+      "time" : {
+        "start" : 1640703448037
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
+        "time" : {
+          "start" : 1640703448038,
+          "stop" : 1640703448069,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<p.sidebar-option-p>** to be **visible**",
+        "time" : {
+          "start" : 1640703448069,
+          "stop" : 1640703448069,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
+      "time" : {
+        "start" : 1640703448069,
+        "stop" : 1640703448096,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains Home",
+      "time" : {
+        "start" : 1640703448096,
+        "stop" : 1640703448126,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Home] sidebar menu is being displayed",
+      "time" : {
+        "start" : 1640703448126,
+        "stop" : 1640703448129,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 103,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get .deel-ui__select__single-value",
+      "time" : {
+        "start" : 1640703449681,
+        "stop" : 1640703450906,
+        "duration" : 1225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 https://api.deel.training/contracts/seniority?limit=200",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 https://api.deel.training/contracts/job-titles?limit=1000",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 https://api.deel.training/team/170851/schedules",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/contracts/job-titles?cursor=eyJvZmZzZXQiOjEwMDAsImxpbWl0IjoxMDAwLCJmaWx0ZXJUeXBlIjoiYWxsIn0=",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 https://api.deel.training/contracts/job-titles?cursor=eyJvZmZzZXQiOjEwMDAsImxpbWl0IjoxMDAwLCJmaWx0ZXJUeXBlIjoiYWxsIn0%3D",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/team/170851/custom_fields",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/scopes?team=170851",
+      "time" : {
+        "start" : 1640703450905,
+        "stop" : 1640703450905,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".deel-ui__select__single-value\")",
+      "time" : {
+        "start" : 1640703450906
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .deel-ui__select__single-value",
+        "time" : {
+          "start" : 1640703450906,
+          "stop" : 1640703450921,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__select__single-value.css-1uccc91-singleValue>** to be **visible**",
+        "time" : {
+          "start" : 1640703450921,
+          "stop" : 1640703450921,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .deel-ui__select__single-value",
+      "time" : {
+        "start" : 1640703450921,
+        "stop" : 1640703450931,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains ABC",
+      "time" : {
+        "start" : 1640703450931,
+        "stop" : 1640703450940,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Entity Dropdown] input field is being displayed",
+      "time" : {
+        "start" : 1640703450940,
+        "stop" : 1640703450942,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"name\"]",
+      "time" : {
+        "start" : 1640703450942,
+        "stop" : 1640703450951,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[name=\"name\"]\")",
+      "time" : {
+        "start" : 1640703450951
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [name=\"name\"]",
+        "time" : {
+          "start" : 1640703450951,
+          "stop" : 1640703450972,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<input.deel-ui__input-component__input>** to be **visible**",
+        "time" : {
+          "start" : 1640703450972,
+          "stop" : 1640703450972,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Contract Name] input field is being displayed",
+      "time" : {
+        "start" : 1640703450972,
+        "stop" : 1640703450974,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "fixture (\"contractName\")",
+      "time" : {
+        "start" : 1640703450974,
+        "stop" : 1640703451013,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"name\"]",
+      "time" : {
+        "start" : 1640703451014,
+        "stop" : 1640703451027,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1640703451027,
+        "stop" : 1640703451259,
+        "duration" : 232
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Contract Name] input box has been cleared",
+      "time" : {
+        "start" : 1640703451259,
+        "stop" : 1640703451262,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"name\"]",
+      "time" : {
+        "start" : 1640703451263,
+        "stop" : 1640703451278,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type gwxHhkz",
+      "time" : {
+        "start" : 1640703451278,
+        "stop" : 1640703451563,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://m.stripe.com/6",
+      "time" : {
+        "start" : 1640703451563,
+        "stop" : 1640703451563,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Contract name has been entered in [Contract Name] input box",
+      "time" : {
+        "start" : 1640703451563,
+        "stop" : 1640703451566,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .deel-ui__select__input-container[data-qa=\"contractor-tax-residence\"] .deel-ui__select__value-container",
+      "time" : {
+        "start" : 1640703451566,
+        "stop" : 1640703451579,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".deel-ui__select__input-container[data-qa=\"contractor-tax-residence\"] .deel-ui__select__value-container\")",
+      "time" : {
+        "start" : 1640703451579
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .deel-ui__select__input-container[data-qa=\"contractor-tax-residence\"] .deel-ui__select__value-container",
+        "time" : {
+          "start" : 1640703451580,
+          "stop" : 1640703451596,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__select__value-container.css-1hwfws3>** to be **visible**",
+        "time" : {
+          "start" : 1640703451595,
+          "stop" : 1640703451595,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Contractors Tax] input field is being displayed",
+      "time" : {
+        "start" : 1640703451596,
+        "stop" : 1640703451598,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .deel-ui__select__input-container[data-qa=\"contractor-tax-residence\"] .deel-ui__select__value-container",
+      "time" : {
+        "start" : 1640703451598,
+        "stop" : 1640703451611,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703451611,
+        "stop" : 1640703451878,
+        "duration" : 267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Contractors Tax Residence] dropdown menu",
+      "time" : {
+        "start" : 1640703451878,
+        "stop" : 1640703451882,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #react-select-3-input",
+      "time" : {
+        "start" : 1640703451882,
+        "stop" : 1640703451909,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type United States",
+      "time" : {
+        "start" : 1640703451909,
+        "stop" : 1640703452337,
+        "duration" : 428
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1640703452337,
+        "stop" : 1640703452483,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [United Stated] has been selected from menu [Contractors Tax Residence] dropdown menu",
+      "time" : {
+        "start" : 1640703452483,
+        "stop" : 1640703452486,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [data-qa=\"contractor-tax-residence-province\"] > .deel-ui__select__control",
+      "time" : {
+        "start" : 1640703452486,
+        "stop" : 1640703452503,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[data-qa=\"contractor-tax-residence-province\"] > .deel-ui__select__control\")",
+      "time" : {
+        "start" : 1640703452503
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [data-qa=\"contractor-tax-residence-province\"] > .deel-ui__select__control",
+        "time" : {
+          "start" : 1640703452503,
+          "stop" : 1640703452521,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__select__control.css-yk16xz-control>** to be **visible**",
+        "time" : {
+          "start" : 1640703452521,
+          "stop" : 1640703452521,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Choose A State] input field is being displayed",
+      "time" : {
+        "start" : 1640703452521,
+        "stop" : 1640703452523,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [data-qa=\"contractor-tax-residence-province\"] > .deel-ui__select__control",
+      "time" : {
+        "start" : 1640703452523,
+        "stop" : 1640703452539,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703452539,
+        "stop" : 1640703452717,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Choose A State] dropdown menu",
+      "time" : {
+        "start" : 1640703452717,
+        "stop" : 1640703452719,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #react-select-5-input",
+      "time" : {
+        "start" : 1640703452719,
+        "stop" : 1640703452734,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Colorado",
+      "time" : {
+        "start" : 1640703452734,
+        "stop" : 1640703453007,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type {enter}",
+      "time" : {
+        "start" : 1640703453007,
+        "stop" : 1640703453147,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Colorado] has been selected from menu [Choose A State] dropdown menu",
+      "time" : {
+        "start" : 1640703453147,
+        "stop" : 1640703453150,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"jobTitle\"]",
+      "time" : {
+        "start" : 1640703453150,
+        "stop" : 1640703453171,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[name=\"jobTitle\"]\")",
+      "time" : {
+        "start" : 1640703453171
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [name=\"jobTitle\"]",
+        "time" : {
+          "start" : 1640703453171,
+          "stop" : 1640703453193,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<input.deel-ui__input-component__input>** to be **visible**",
+        "time" : {
+          "start" : 1640703453193,
+          "stop" : 1640703453193,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Job Title] input field link is being displayed",
+      "time" : {
+        "start" : 1640703453193,
+        "stop" : 1640703453196,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"jobTitle\"]",
+      "time" : {
+        "start" : 1640703453196,
+        "stop" : 1640703453213,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703453213,
+        "stop" : 1640703453420,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Job Title] input field",
+      "time" : {
+        "start" : 1640703453420,
+        "stop" : 1640703453422,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #root > div > div > div > div > form > div.box.mb-10.undefined > div > div:nth-child(3) > div.suggestions-box > p:nth-child(954)",
+      "time" : {
+        "start" : 1640703453422,
+        "stop" : 1640703453440,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains Software Qa Engineer",
+      "time" : {
+        "start" : 1640703453440,
+        "stop" : 1640703453462,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703453462,
+        "stop" : 1640703453784,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Software Qa Engineer] has been selected from menu [Job Title] input field",
+      "time" : {
+        "start" : 1640703453784,
+        "stop" : 1640703453786,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [data-qa=\"selector-seniority-level\"] .deel-ui__select__value-container",
+      "time" : {
+        "start" : 1640703453786,
+        "stop" : 1640703453807,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[data-qa=\"selector-seniority-level\"] .deel-ui__select__value-container\")",
+      "time" : {
+        "start" : 1640703453807
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [data-qa=\"selector-seniority-level\"] .deel-ui__select__value-container",
+        "time" : {
+          "start" : 1640703453808,
+          "stop" : 1640703453835,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__select__value-container.css-1hwfws3>** to be **visible**",
+        "time" : {
+          "start" : 1640703453835,
+          "stop" : 1640703453835,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Security Level] dropdown input field link is being displayed",
+      "time" : {
+        "start" : 1640703453836,
+        "stop" : 1640703453838,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [data-qa=\"selector-seniority-level\"] .deel-ui__select__value-container",
+      "time" : {
+        "start" : 1640703453838,
+        "stop" : 1640703453860,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703453860,
+        "stop" : 1640703454048,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Seniority Level] dropdown menu",
+      "time" : {
+        "start" : 1640703454048,
+        "stop" : 1640703454051,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get #react-select-4-option-6 > .deel-ui__select__option-container",
+      "time" : {
+        "start" : 1640703454051,
+        "stop" : 1640703454071,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703454071,
+        "stop" : 1640703454244,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Director] has been selected from menu [Seniority Level] dropdown menu",
+      "time" : {
+        "start" : 1640703454244,
+        "stop" : 1640703454246,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"scope\"]",
+      "time" : {
+        "start" : 1640703454246,
+        "stop" : 1640703454267,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[name=\"scope\"]\")",
+      "time" : {
+        "start" : 1640703454267
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [name=\"scope\"]",
+        "time" : {
+          "start" : 1640703454267,
+          "stop" : 1640703454294,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<textarea.deel-ui__textarea-component__textarea>** to be **visible**",
+        "time" : {
+          "start" : 1640703454294,
+          "stop" : 1640703454294,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Security Level] dropdown input field link is being displayed",
+      "time" : {
+        "start" : 1640703454294,
+        "stop" : 1640703454296,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get h6.color-primary",
+      "time" : {
+        "start" : 1640703454296,
+        "stop" : 1640703454317,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"h6.color-primary\")",
+      "time" : {
+        "start" : 1640703454317
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get h6.color-primary",
+        "time" : {
+          "start" : 1640703454318,
+          "stop" : 1640703454338,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<h6.color-primary>** to be **visible**",
+        "time" : {
+          "start" : 1640703454338,
+          "stop" : 1640703454338,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Select Workscopes] dropdown input field link is being displayed",
+      "time" : {
+        "start" : 1640703454338,
+        "stop" : 1640703454340,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get h6.color-primary",
+      "time" : {
+        "start" : 1640703454340,
+        "stop" : 1640703454359,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703454359,
+        "stop" : 1640703454575,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://m.stripe.com/6",
+      "time" : {
+        "start" : 1640703454575,
+        "stop" : 1640703454575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Select Predefined work scopes] dropdown menu",
+      "time" : {
+        "start" : 1640703454575,
+        "stop" : 1640703454577,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get :nth-child(17) > .deel-ui__button__content > span",
+      "time" : {
+        "start" : 1640703454577,
+        "stop" : 1640703454601,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\":nth-child(17) > .deel-ui__button__content > span\")",
+      "time" : {
+        "start" : 1640703454601
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get :nth-child(17) > .deel-ui__button__content > span",
+        "time" : {
+          "start" : 1640703454601,
+          "stop" : 1640703454624,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<span>** to be **visible**",
+        "time" : {
+          "start" : 1640703454624,
+          "stop" : 1640703454624,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Select Workscopes] dropdown value is being displayed",
+      "time" : {
+        "start" : 1640703454624,
+        "stop" : 1640703454626,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get :nth-child(17) > .deel-ui__button__content > span",
+      "time" : {
+        "start" : 1640703454626,
+        "stop" : 1640703454651,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703454651,
+        "stop" : 1640703454871,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Software Developer] has been selected from menu [Select Predefined work scopes] dropdown menu",
+      "time" : {
+        "start" : 1640703454872,
+        "stop" : 1640703454874,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .deel-ui__calendar-input-container__input_content_value",
+      "time" : {
+        "start" : 1640703454874,
+        "stop" : 1640703454895,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".deel-ui__calendar-input-container__input_content_value\")",
+      "time" : {
+        "start" : 1640703454895
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .deel-ui__calendar-input-container__input_content_value",
+        "time" : {
+          "start" : 1640703454896,
+          "stop" : 1640703454929,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__calendar-input-container__input_content_value>** to be **visible**",
+        "time" : {
+          "start" : 1640703454929,
+          "stop" : 1640703454929,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Contractors Start Date] datepicker input field link is being displayed",
+      "time" : {
+        "start" : 1640703454929,
+        "stop" : 1640703454932,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .deel-ui__calendar-input-container__input_content_value",
+      "time" : {
+        "start" : 1640703454932,
+        "stop" : 1640703454956,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703454956,
+        "stop" : 1640703455200,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Contractors Start Date] date picker field",
+      "time" : {
+        "start" : 1640703455200,
+        "stop" : 1640703455205,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains 27",
+      "time" : {
+        "start" : 1640703455205,
+        "stop" : 1640703455238,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703455238,
+        "stop" : 1640703455484,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Contractors Start Date] has been selected from date picker field",
+      "time" : {
+        "start" : 1640703455484,
+        "stop" : 1640703455489,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-general-info > div",
+      "time" : {
+        "start" : 1640703455489,
+        "stop" : 1640703455513,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".submit-general-info > div\")",
+      "time" : {
+        "start" : 1640703455513
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .submit-general-info > div",
+        "time" : {
+          "start" : 1640703455514,
+          "stop" : 1640703455537,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div>** to be **visible**",
+        "time" : {
+          "start" : 1640703455537,
+          "stop" : 1640703455537,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Next] button is being displayed",
+      "time" : {
+        "start" : 1640703455537,
+        "stop" : 1640703455539,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get p.color-gray-dark",
+      "time" : {
+        "start" : 1640703455539,
+        "stop" : 1640703455558,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"p.color-gray-dark\")",
+      "time" : {
+        "start" : 1640703455558
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get p.color-gray-dark",
+        "time" : {
+          "start" : 1640703455558,
+          "stop" : 1640703455589,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<p.color-gray-dark>** to be **visible**",
+        "time" : {
+          "start" : 1640703455588,
+          "stop" : 1640703455588,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Back] button is being displayed",
+      "time" : {
+        "start" : 1640703455589,
+        "stop" : 1640703455591,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-general-info > div",
+      "time" : {
+        "start" : 1640703455591,
+        "stop" : 1640703455614,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703455614,
+        "stop" : 1640703455945,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/contracts/seniority?limit=200",
+      "time" : {
+        "start" : 1640703455945,
+        "stop" : 1640703455945,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Next] button",
+      "time" : {
+        "start" : 1640703455945,
+        "stop" : 1640703455949,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .payment-set-controls > .deel-ui__select > .deel-ui__select__input-container > .deel-ui__select__control > .deel-ui__select__value-container > .deel-ui__select__single-value",
+      "time" : {
+        "start" : 1640703455949,
+        "stop" : 1640703455983,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".payment-set-controls > .deel-ui__select > .deel-ui__select__input-container > .deel-ui__select__control > .deel-ui__select__value-container > .deel-ui__select__single-value\")",
+      "time" : {
+        "start" : 1640703455983
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .payment-set-controls > .deel-ui__select > .deel-ui__select__input-container > .deel-ui__select__control > .deel-ui__select__value-container > .deel-ui__select__single-value",
+        "time" : {
+          "start" : 1640703455983,
+          "stop" : 1640703456014,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__select__single-value.css-1uccc91-singleValue>** to be **visible**",
+        "time" : {
+          "start" : 1640703456014,
+          "stop" : 1640703456014,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Currency] dropdown menu is being displayed",
+      "time" : {
+        "start" : 1640703456014,
+        "stop" : 1640703456018,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .payment-set-controls > .deel-ui__select > .deel-ui__select__input-container > .deel-ui__select__control > .deel-ui__select__value-container > .deel-ui__select__single-value",
+      "time" : {
+        "start" : 1640703456018,
+        "stop" : 1640703456043,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703456043,
+        "stop" : 1640703456333,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Currency] dropdown menu",
+      "time" : {
+        "start" : 1640703456333,
+        "stop" : 1640703456340,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains GBP - British Pound",
+      "time" : {
+        "start" : 1640703456340,
+        "stop" : 1640703456368,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703456368,
+        "stop" : 1640703456626,
+        "duration" : 258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/contracts/seniority?limit=200",
+      "time" : {
+        "start" : 1640703456625,
+        "stop" : 1640703456625,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [GBP - British Pound] currency has been selected from [Currency] dropdown menu",
+      "time" : {
+        "start" : 1640703456626,
+        "stop" : 1640703456629,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"rate\"]",
+      "time" : {
+        "start" : 1640703456629,
+        "stop" : 1640703456653,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[name=\"rate\"]\")",
+      "time" : {
+        "start" : 1640703456653
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [name=\"rate\"]",
+        "time" : {
+          "start" : 1640703456653,
+          "stop" : 1640703456681,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<input.deel-ui__input-component__input>** to be **visible**",
+        "time" : {
+          "start" : 1640703456681,
+          "stop" : 1640703456681,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Payment Rate] input field is being displayed",
+      "time" : {
+        "start" : 1640703456681,
+        "stop" : 1640703456684,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"rate\"]",
+      "time" : {
+        "start" : 1640703456684,
+        "stop" : 1640703456709,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1640703456709,
+        "stop" : 1640703457133,
+        "duration" : 424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/salary_insights?jobTitle=Software+Qa+Engineer&seniorityLevel=6&country=US&currency=USD&scale=annually",
+      "time" : {
+        "start" : 1640703457133,
+        "stop" : 1640703457133,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/salary_insights?jobTitle=Software+Qa+Engineer&seniorityLevel=6&country=US&currency=GBP&scale=annually",
+      "time" : {
+        "start" : 1640703457133,
+        "stop" : 1640703457133,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Payment Rate] input box has been cleared",
+      "time" : {
+        "start" : 1640703457133,
+        "stop" : 1640703457136,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [name=\"rate\"]",
+      "time" : {
+        "start" : 1640703457136,
+        "stop" : 1640703457167,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type 1000",
+      "time" : {
+        "start" : 1640703457167,
+        "stop" : 1640703457519,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Payment rate value has been inputted",
+      "time" : {
+        "start" : 1640703457519,
+        "stop" : 1640703457522,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get div.env-development div.sidebar-space div.page-content.text-center form.text-left div.box.clearfix div.deel-ui__stack.deel-ui__stack_vertical.deel-ui__stack_with-spacing div.input-container:nth-child(2) div.flex.align-items-center div.deel-ui__select.select.w-100.css-2b097c-container div.deel-ui__select__input-container div.deel-ui__select__control.css-yk16xz-control div.deel-ui__select__value-container.deel-ui__select__value-container--has-value.css-1hwfws3 > div.deel-ui__select__single-value.css-1uccc91-singleValue",
+      "time" : {
+        "start" : 1640703457522,
+        "stop" : 1640703457554,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"div.env-development div.sidebar-space div.page-content.text-center form.text-left div.box.clearfix div.deel-ui__stack.deel-ui__stack_vertical.deel-ui__stack_with-spacing div.input-container:nth-child(2) div.flex.align-items-center div.deel-ui__select.select.w-100.css-2b097c-container div.deel-ui__select__input-container div.deel-ui__select__control.css-yk16xz-control div.deel-ui__select__value-container.deel-ui__select__value-container--has-value.css-1hwfws3 > div.deel-ui__select__single-value.css-1uccc91-singleValue\")",
+      "time" : {
+        "start" : 1640703457554
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get div.env-development div.sidebar-space div.page-content.text-center form.text-left div.box.clearfix div.deel-ui__stack.deel-ui__stack_vertical.deel-ui__stack_with-spacing div.input-container:nth-child(2) div.flex.align-items-center div.deel-ui__select.select.w-100.css-2b097c-container div.deel-ui__select__input-container div.deel-ui__select__control.css-yk16xz-control div.deel-ui__select__value-container.deel-ui__select__value-container--has-value.css-1hwfws3 > div.deel-ui__select__single-value.css-1uccc91-singleValue",
+        "time" : {
+          "start" : 1640703457554,
+          "stop" : 1640703457601,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div.deel-ui__select__single-value.css-1uccc91-singleValue>** to be **visible**",
+        "time" : {
+          "start" : 1640703457601,
+          "stop" : 1640703457601,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Payment Frequency] dropdown menu is being displayed",
+      "time" : {
+        "start" : 1640703457601,
+        "stop" : 1640703457603,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get div.env-development div.sidebar-space div.page-content.text-center form.text-left div.box.clearfix div.deel-ui__stack.deel-ui__stack_vertical.deel-ui__stack_with-spacing div.input-container:nth-child(2) div.flex.align-items-center div.deel-ui__select.select.w-100.css-2b097c-container div.deel-ui__select__input-container div.deel-ui__select__control.css-yk16xz-control div.deel-ui__select__value-container.deel-ui__select__value-container--has-value.css-1hwfws3 > div.deel-ui__select__single-value.css-1uccc91-singleValue",
+      "time" : {
+        "start" : 1640703457603,
+        "stop" : 1640703457636,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703457636,
+        "stop" : 1640703457867,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Payment Frequency] dropdown menu",
+      "time" : {
+        "start" : 1640703457867,
+        "stop" : 1640703457870,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains Weekly",
+      "time" : {
+        "start" : 1640703457870,
+        "stop" : 1640703457899,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703457899,
+        "stop" : 1640703458145,
+        "duration" : 246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Weekly] payment frequency has been selected from [Payment Frequency] dropdown menu",
+      "time" : {
+        "start" : 1640703458145,
+        "stop" : 1640703458152,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get p.color-gray-dark",
+      "time" : {
+        "start" : 1640703458152,
+        "stop" : 1640703458184,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"p.color-gray-dark\")",
+      "time" : {
+        "start" : 1640703458184
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get p.color-gray-dark",
+        "time" : {
+          "start" : 1640703458184,
+          "stop" : 1640703458220,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<p.color-gray-dark>** to be **visible**",
+        "time" : {
+          "start" : 1640703458220,
+          "stop" : 1640703458220,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Back] button is being displayed",
+      "time" : {
+        "start" : 1640703458221,
+        "stop" : 1640703458224,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-payments-details",
+      "time" : {
+        "start" : 1640703458224,
+        "stop" : 1640703458262,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".submit-payments-details\")",
+      "time" : {
+        "start" : 1640703458262
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .submit-payments-details",
+        "time" : {
+          "start" : 1640703458263,
+          "stop" : 1640703458305,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<button.button.mt-9.submit-payments-details.heap-create-contract-fixed-payment-details-next.w-100>** to be **visible**",
+        "time" : {
+          "start" : 1640703458305,
+          "stop" : 1640703458305,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Next] submit payment details button is being displayed",
+      "time" : {
+        "start" : 1640703458305,
+        "stop" : 1640703458309,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-payments-details",
+      "time" : {
+        "start" : 1640703458309,
+        "stop" : 1640703458346,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703458346,
+        "stop" : 1640703458622,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://api.deel.training/contracts/estimate",
+      "time" : {
+        "start" : 1640703458622,
+        "stop" : 1640703458622,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Next] submit payment details button",
+      "time" : {
+        "start" : 1640703458622,
+        "stop" : 1640703458625,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-define-dates",
+      "time" : {
+        "start" : 1640703458625,
+        "stop" : 1640703458665,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".submit-define-dates\")",
+      "time" : {
+        "start" : 1640703458665
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .submit-define-dates",
+        "time" : {
+          "start" : 1640703458666,
+          "stop" : 1640703458701,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<button.button.submit-define-dates.heap-create-contract-fixed-define-dates-next.w-100>** to be **visible**",
+        "time" : {
+          "start" : 1640703458701,
+          "stop" : 1640703458701,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Next] submit define dates button is being displayed",
+      "time" : {
+        "start" : 1640703458701,
+        "stop" : 1640703458704,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-define-dates",
+      "time" : {
+        "start" : 1640703458704,
+        "stop" : 1640703458736,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703458736,
+        "stop" : 1640703459050,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Next] submit define dates button",
+      "time" : {
+        "start" : 1640703459050,
+        "stop" : 1640703459054,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [data-qa=\"add-a-special-clause\"]",
+      "time" : {
+        "start" : 1640703459054,
+        "stop" : 1640703459088,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"[data-qa=\"add-a-special-clause\"]\")",
+      "time" : {
+        "start" : 1640703459088
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [data-qa=\"add-a-special-clause\"]",
+        "time" : {
+          "start" : 1640703459089,
+          "stop" : 1640703459129,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<button.button>** to be **visible**",
+        "time" : {
+          "start" : 1640703459129,
+          "stop" : 1640703459129,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Add A Special Clause] button is being displayed",
+      "time" : {
+        "start" : 1640703459129,
+        "stop" : 1640703459133,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get [data-qa=\"add-a-special-clause\"]",
+      "time" : {
+        "start" : 1640703459133,
+        "stop" : 1640703459169,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703459169,
+        "stop" : 1640703459383,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Add A Special Clause] button",
+      "time" : {
+        "start" : 1640703459384,
+        "stop" : 1640703459388,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .textarea",
+      "time" : {
+        "start" : 1640703459388,
+        "stop" : 1640703459433,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".textarea\")",
+      "time" : {
+        "start" : 1640703459433
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .textarea",
+        "time" : {
+          "start" : 1640703459433,
+          "stop" : 1640703459473,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<textarea.textarea.pt-4.pr-7.pl-7.resizable.pb-4.>** to be **visible**",
+        "time" : {
+          "start" : 1640703459473,
+          "stop" : 1640703459473,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Add A Special Clause] input field is being displayed",
+      "time" : {
+        "start" : 1640703459473,
+        "stop" : 1640703459476,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .textarea",
+      "time" : {
+        "start" : 1640703459476,
+        "stop" : 1640703459506,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1640703459506,
+        "stop" : 1640703459808,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Add A Special Clause] input box has been cleared",
+      "time" : {
+        "start" : 1640703459808,
+        "stop" : 1640703459812,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .textarea",
+      "time" : {
+        "start" : 1640703459812,
+        "stop" : 1640703459842,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type Medical Emergency",
+      "time" : {
+        "start" : 1640703459842,
+        "stop" : 1640703460283,
+        "duration" : 441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Special Clause has been inputted",
+      "time" : {
+        "start" : 1640703460283,
+        "stop" : 1640703460286,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-extras",
+      "time" : {
+        "start" : 1640703460286,
+        "stop" : 1640703460319,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\".submit-extras\")",
+      "time" : {
+        "start" : 1640703460319
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .submit-extras",
+        "time" : {
+          "start" : 1640703460319,
+          "stop" : 1640703460368,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<button.button.mt-7.submit-extras.heap-create-contract-fixed-benefits-extras-next.w-100>** to be **visible**",
+        "time" : {
+          "start" : 1640703460368,
+          "stop" : 1640703460368,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Next] submit extras button is being displayed",
+      "time" : {
+        "start" : 1640703460368,
+        "stop" : 1640703460370,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get .submit-extras",
+      "time" : {
+        "start" : 1640703460370,
+        "stop" : 1640703460410,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703460410,
+        "stop" : 1640703460641,
+        "duration" : 231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://api.deel.training/team/170851",
+      "time" : {
+        "start" : 1640703460641,
+        "stop" : 1640703460641,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Next] submit extras button",
+      "time" : {
+        "start" : 1640703460641,
+        "stop" : 1640703460644,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get div.env-development div.sidebar-space div.page-content.text-center div.flex.flex-dir-col.compliance-form:nth-child(3) div.mt-7:nth-child(4) button.button.mt-7.submit-compliance.heap-create-contract-fixed-compliance-create.w-100 > div:nth-child(1)",
+      "time" : {
+        "start" : 1640703460644,
+        "stop" : 1640703460688,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "isVisible (\"div.env-development div.sidebar-space div.page-content.text-center div.flex.flex-dir-col.compliance-form:nth-child(3) div.mt-7:nth-child(4) button.button.mt-7.submit-compliance.heap-create-contract-fixed-compliance-create.w-100 > div:nth-child(1)\")",
+      "time" : {
+        "start" : 1640703460688
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get div.env-development div.sidebar-space div.page-content.text-center div.flex.flex-dir-col.compliance-form:nth-child(3) div.mt-7:nth-child(4) button.button.mt-7.submit-compliance.heap-create-contract-fixed-compliance-create.w-100 > div:nth-child(1)",
+        "time" : {
+          "start" : 1640703460689,
+          "stop" : 1640703460737,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "assert expected **<div>** to be **visible**",
+        "time" : {
+          "start" : 1640703460737,
+          "stop" : 1640703460737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log [Create Contract] button is being displayed",
+      "time" : {
+        "start" : 1640703460737,
+        "stop" : 1640703460743,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get div.env-development div.sidebar-space div.page-content.text-center div.flex.flex-dir-col.compliance-form:nth-child(3) div.mt-7:nth-child(4) button.button.mt-7.submit-compliance.heap-create-contract-fixed-compliance-create.w-100 > div:nth-child(1)",
+      "time" : {
+        "start" : 1640703460743,
+        "stop" : 1640703460780,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1640703460780,
+        "stop" : 1640703461027,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST https://api.deel.training/contracts",
+      "time" : {
+        "start" : 1640703461027,
+        "stop" : 1640703461027,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log Clicked on [Create Contract] button",
+      "time" : {
+        "start" : 1640703461028,
+        "stop" : 1640703461031,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 219,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can create a new fixed rate contract"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "133b55bd0f9595e.json",
+  "parameterValues" : [ ]
+}

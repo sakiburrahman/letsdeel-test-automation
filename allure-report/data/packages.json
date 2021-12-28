@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Should display home page after successfull login",
+    "uid" : "312b20f58a2bc3aa",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640703448131,
+      "stop" : 1640703448620,
+      "duration" : 489
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to navigate contract type page",
+    "uid" : "4845e9148854f174",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640703448822,
+      "stop" : 1640703449366,
+      "duration" : 544
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to navigate fixed rate contract page",
+    "uid" : "5ef9367831a7e99e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640703449386,
+      "stop" : 1640703449604,
+      "duration" : 218
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should be able to create a new fixed rate contract",
+    "uid" : "133b55bd0f9595e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640703449610,
+      "stop" : 1640703461031,
+      "duration" : 11421
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify Created fixed rate contract should be listed in contracts grid",
+    "uid" : "de8c29a88f67003",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1640703461120,
+      "stop" : 1640703461786,
+      "duration" : 666
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

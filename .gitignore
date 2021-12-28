@@ -1,7 +1,9 @@
 # Ignore
 cypress.env.json
-cypress/fixtures/contractName.json
+# cypress/test-reports/
+cypress/downloads/
 cypress/screenshots/
 cypress/videos/
-cypress/allure_results/
+# allure_results/
+# allure_reports/
 # node_modules/
