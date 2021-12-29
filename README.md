@@ -1,10 +1,23 @@
 # letsdeel-test-automation
 Automation test script using cypress
 
-# To Run cypress
+# To Install cypress
 1. Download Node Js and install
 2. Run cmd and install cypress using the following command 
         npm install cypress
+
+# To Install cypress allure plugin
+1. Run cmd and install using the following command 
+        npm i @shelex/cypress-allure-plugin
+
+# To Install cypress Mochawesome Reporter
+1. Run cmd and install using the following command sequentially
+        npm install mocha --save-dev
+        npm install cypress-multi-reporters --save-dev
+        npm install mochawesome --save-dev
+        npm install mochawesome-merge --save-dev
+        npm install mochawesome-report-generator --save-dev
+
 
 # To open the cypress grid
 npm run cy:open
