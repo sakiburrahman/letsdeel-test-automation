@@ -1,6 +1,6 @@
 "Status","Name","Duration in ms","Description"
 "passed","Verify Created fixed rate contract should be listed in contracts grid","666",""
-"passed","Should be able to create a new fixed rate contract","11421",""
 "passed","Should be able to navigate fixed rate contract page","218",""
-"passed","Should be able to navigate contract type page","544",""
 "passed","Should display home page after successfull login","489",""
+"passed","Should be able to navigate contract type page","544",""
+"passed","Should be able to create a new fixed rate contract","11421",""

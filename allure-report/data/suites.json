@@ -5,7 +5,7 @@
     "name" : "Authentify user can create a new fixed rate contract",
     "children" : [ {
       "name" : "Should display home page after successfull login",
-      "uid" : "312b20f58a2bc3aa",
+      "uid" : "c8800e04d64eb145",
       "parentUid" : "47a1d46af62d27b5a55d6b536fc4e326",
       "status" : "passed",
       "time" : {
@@ -17,7 +17,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Should be able to navigate contract type page",
-      "uid" : "4845e9148854f174",
+      "uid" : "7d1296609e7c50c0",
       "parentUid" : "47a1d46af62d27b5a55d6b536fc4e326",
       "status" : "passed",
       "time" : {
@@ -29,7 +29,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Should be able to navigate fixed rate contract page",
-      "uid" : "5ef9367831a7e99e",
+      "uid" : "40cee63a64910d79",
       "parentUid" : "47a1d46af62d27b5a55d6b536fc4e326",
       "status" : "passed",
       "time" : {
@@ -41,7 +41,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Should be able to create a new fixed rate contract",
-      "uid" : "133b55bd0f9595e",
+      "uid" : "18fe83527f5eb4af",
       "parentUid" : "47a1d46af62d27b5a55d6b536fc4e326",
       "status" : "passed",
       "time" : {
@@ -53,7 +53,7 @@
       "parameters" : [ ]
     }, {
       "name" : "Verify Created fixed rate contract should be listed in contracts grid",
-      "uid" : "de8c29a88f67003",
+      "uid" : "32960292d08d8ef1",
       "parentUid" : "47a1d46af62d27b5a55d6b536fc4e326",
       "status" : "passed",
       "time" : {

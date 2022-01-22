@@ -1,12 +1,12 @@
 {
-  "uid" : "5ef9367831a7e99e",
-  "name" : "Should be able to navigate fixed rate contract page",
-  "fullName" : "Should be able to navigate fixed rate contract page",
-  "historyId" : "cf5e77f968ffeaef945747dbfbfdde17",
+  "uid" : "c8800e04d64eb145",
+  "name" : "Should display home page after successfull login",
+  "fullName" : "Should display home page after successfull login",
+  "historyId" : "4c520d4a2bbfc897adaeb80de779cb54",
   "time" : {
-    "start" : 1640703449386,
-    "stop" : 1640703449604,
-    "duration" : 218
+    "start" : 1640703448131,
+    "stop" : 1640703448620,
+    "duration" : 489
   },
   "status" : "passed",
   "flaky" : false,
@@ -30,17 +30,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
     }, {
       "name" : "navigateToDeelSite",
       "time" : {
@@ -58,10 +58,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "visit https://app.deel.training/login",
         "time" : {
@@ -73,10 +73,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET https://api.deel.training/lookups?documents[]=bankAccounts&documents[]=countries&documents[]=currencies&documents[]=cryptoCurrencies&documents[]=entityTypes&documents[]=payAdjustments&documents[]=paymentMethods&documents[]=withdrawMethods&documents[]=perks&documents[]=multipleCurrencyCountries&documents[]=integrations&documents[]=features&documents[]=employeeInfo&documents[]=whatsNew",
         "time" : {
@@ -88,10 +88,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log Web Site has been loaded successfully",
         "time" : {
@@ -103,17 +103,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 4,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
     }, {
       "name" : "loginToDeelSite",
       "time" : {
@@ -133,10 +133,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
         "time" : {
@@ -148,10 +148,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/commons/countries/biMonthly",
         "time" : {
@@ -163,10 +163,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "isVisible (\".position-relative > div\")",
         "time" : {
@@ -184,10 +184,10 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
           "name" : "assert expected **<div>** to be **visible**",
           "time" : {
@@ -199,17 +199,17 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 2,
-        "hasContent" : true,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
       }, {
         "name" : "get .position-relative > div",
         "time" : {
@@ -221,10 +221,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "contains Log in using Google",
         "time" : {
@@ -236,10 +236,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log [Log In Using Google] button is being displayed",
         "time" : {
@@ -251,10 +251,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get .login-signup-link > div",
         "time" : {
@@ -266,10 +266,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "isVisible (\".login-signup-link > div\")",
         "time" : {
@@ -287,10 +287,10 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
           "name" : "assert expected **<div>** to be **visible**",
           "time" : {
@@ -302,17 +302,17 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 2,
-        "hasContent" : true,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
       }, {
         "name" : "log [Sign Up] link is being displayed",
         "time" : {
@@ -324,10 +324,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get [name=\"email\"]",
         "time" : {
@@ -339,10 +339,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "isVisible (\"[name=\"email\"]\")",
         "time" : {
@@ -360,10 +360,10 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
           "name" : "assert expected **<input>** to be **visible**",
           "time" : {
@@ -375,17 +375,17 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 2,
-        "hasContent" : true,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
       }, {
         "name" : "log [Email Address] input field is being displayed",
         "time" : {
@@ -397,10 +397,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "fixture (\"loginCredentials\")",
         "time" : {
@@ -412,10 +412,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get [name=\"email\"]",
         "time" : {
@@ -427,10 +427,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "clear",
         "time" : {
@@ -442,10 +442,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log [Eamil Address] input box has been cleared",
         "time" : {
@@ -457,10 +457,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get [name=\"email\"]",
         "time" : {
@@ -472,10 +472,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "type deelautomationtest@yopmail.com",
         "time" : {
@@ -487,10 +487,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log Email has been entered in [Email Address] input box",
         "time" : {
@@ -502,10 +502,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get [name=\"password\"]",
         "time" : {
@@ -517,10 +517,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "isVisible (\"[name=\"password\"]\")",
         "time" : {
@@ -538,10 +538,10 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
           "name" : "assert expected **<input>** to be **visible**",
           "time" : {
@@ -553,17 +553,17 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 2,
-        "hasContent" : true,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
       }, {
         "name" : "log [Password] input field is being displayed",
         "time" : {
@@ -575,10 +575,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "fixture (\"loginCredentials\")",
         "time" : {
@@ -590,10 +590,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get [name=\"password\"]",
         "time" : {
@@ -605,10 +605,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "clear",
         "time" : {
@@ -620,10 +620,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log [Password] input box has been cleared",
         "time" : {
@@ -635,10 +635,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get [name=\"password\"]",
         "time" : {
@@ -650,10 +650,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "type Espak11111!!!!!",
         "time" : {
@@ -665,10 +665,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log Password has been entered in [Password] input box",
         "time" : {
@@ -680,10 +680,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get .mt-10 > div",
         "time" : {
@@ -695,10 +695,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "isVisible (\".mt-10 > div\")",
         "time" : {
@@ -716,10 +716,10 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         }, {
           "name" : "assert expected **<div>** to be **visible**",
           "time" : {
@@ -731,17 +731,17 @@
           "steps" : [ ],
           "attachments" : [ ],
           "parameters" : [ ],
-          "stepsCount" : 0,
-          "hasContent" : false,
           "shouldDisplayMessage" : false,
-          "attachmentsCount" : 0
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
         } ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 2,
-        "hasContent" : true,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 2
       }, {
         "name" : "log [Log In] button is being displayed",
         "time" : {
@@ -753,10 +753,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get .mt-10 > div",
         "time" : {
@@ -768,10 +768,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "click",
         "time" : {
@@ -783,10 +783,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "POST https://api.deel.training/login",
         "time" : {
@@ -798,10 +798,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "log Clicked on [Log In] Button",
         "time" : {
@@ -813,10 +813,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
         "time" : {
@@ -828,10 +828,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
         "time" : {
@@ -843,10 +843,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/profiles/me",
         "time" : {
@@ -858,10 +858,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "POST 200 https://www.google.com/recaptcha/api2/reload?k=6LfBsOkUAAAAAGMTXqhjn2Thz4lERi2lC5o7h-7f",
         "time" : {
@@ -873,10 +873,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "new url https://app.deel.training/",
         "time" : {
@@ -888,10 +888,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "page load --page loaded--",
         "time" : {
@@ -903,10 +903,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/compliance",
         "time" : {
@@ -918,10 +918,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard",
         "time" : {
@@ -933,10 +933,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/organization_profiles?organizationId=118218",
         "time" : {
@@ -948,10 +948,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/legal_entities?organizationId=118218",
         "time" : {
@@ -963,10 +963,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/team",
         "time" : {
@@ -978,10 +978,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
         "time" : {
@@ -993,10 +993,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET https://api.deel.training/profiles/me",
         "time" : {
@@ -1008,10 +1008,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET https://api.deel.training/contracts/custom_fields_parameters",
         "time" : {
@@ -1023,10 +1023,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET https://api.deel.training/payments/account",
         "time" : {
@@ -1038,10 +1038,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/lookups?documents[]=bankAccounts&documents[]=countries&documents[]=currencies&documents[]=cryptoCurrencies&documents[]=entityTypes&documents[]=payAdjustments&documents[]=paymentMethods&documents[]=withdrawMethods&documents[]=perks&documents[]=multipleCurrencyCountries&documents[]=integrations&documents[]=features&documents[]=employeeInfo&documents[]=whatsNew",
         "time" : {
@@ -1053,10 +1053,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "POST 200 https://o265775.ingest.sentry.io/api/1469620/envelope/?sentry_key=eec2e48072684c68a339c8443b6fd123&sentry_version=7",
         "time" : {
@@ -1068,10 +1068,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/commons/countries/biMonthly",
         "time" : {
@@ -1083,10 +1083,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
         "time" : {
@@ -1098,10 +1098,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/profiles/me",
         "time" : {
@@ -1113,10 +1113,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard",
         "time" : {
@@ -1128,10 +1128,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/organization_profiles?organizationId=118218",
         "time" : {
@@ -1143,10 +1143,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/legal_entities?organizationId=118218",
         "time" : {
@@ -1158,10 +1158,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://grsm.io/pr/gpk/pk_PWkZSrp4L6H1BRQpkArdNl67khUIeR59",
         "time" : {
@@ -1173,10 +1173,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/team",
         "time" : {
@@ -1188,10 +1188,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "POST 200 https://x.clearbit.com/v1/p",
         "time" : {
@@ -1203,10 +1203,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/commons/exchange_rates",
         "time" : {
@@ -1218,10 +1218,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/profiles/me",
         "time" : {
@@ -1233,10 +1233,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/contracts/custom_fields_parameters",
         "time" : {
@@ -1248,10 +1248,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/payments/account",
         "time" : {
@@ -1263,10 +1263,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/organization_profiles?organizationId=118218",
         "time" : {
@@ -1278,10 +1278,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/payments/account",
         "time" : {
@@ -1293,10 +1293,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/compliance",
         "time" : {
@@ -1308,10 +1308,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/transactions/graph?limit=1m",
         "time" : {
@@ -1323,10 +1323,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard/widgets/employees_onboarding_tracker?limit=1",
         "time" : {
@@ -1338,10 +1338,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard/widgets/pending-time-offs",
         "time" : {
@@ -1353,10 +1353,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard",
         "time" : {
@@ -1368,10 +1368,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard/widgets/pending_eor_amendments",
         "time" : {
@@ -1383,10 +1383,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/dashboard/widgets/is_missing_payroll_step",
         "time" : {
@@ -1398,10 +1398,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/payments/account",
         "time" : {
@@ -1413,10 +1413,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/mass_approve/total",
         "time" : {
@@ -1428,10 +1428,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "GET 200 https://api.deel.training/transactions/graph?limit=1m",
         "time" : {
@@ -1443,17 +1443,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 89,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 89
     }, {
       "name" : "isVisible (\".mb-2:nth-child(1) .sidebar-option-p\")",
       "time" : {
@@ -1471,10 +1471,10 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
         "name" : "assert expected **<p.sidebar-option-p>** to be **visible**",
         "time" : {
@@ -1486,17 +1486,17 @@
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
     }, {
       "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
       "time" : {
@@ -1508,10 +1508,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "contains Home",
       "time" : {
@@ -1523,10 +1523,10 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
       "name" : "log [Home] sidebar menu is being displayed",
       "time" : {
@@ -1538,235 +1538,379 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 103,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 103
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "get .heap-start-fixed-contract .mt-9",
+      "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
       "time" : {
-        "start" : 1640703449419,
-        "stop" : 1640703449423,
-        "duration" : 4
+        "start" : 1640703448238,
+        "stop" : 1640703448267,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "click",
-      "time" : {
-        "start" : 1640703449423,
-        "stop" : 1640703449583,
-        "duration" : 160
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
+      "attachmentsCount" : 0,
       "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "stepsCount" : 0
     }, {
-      "name" : "new url https://app.deel.training/create/fixed",
+      "name" : "isVisible (\".mb-2:nth-child(1) .sidebar-option-p\")",
       "time" : {
-        "start" : 1640703449582,
-        "stop" : 1640703449582,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "GET https://api.deel.training/contracts/seniority?limit=200",
-      "time" : {
-        "start" : 1640703449582,
-        "stop" : 1640703449582,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "GET https://api.deel.training/contracts/job-titles?limit=1000",
-      "time" : {
-        "start" : 1640703449583,
-        "stop" : 1640703449583,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "GET https://api.deel.training/team/170851/schedules",
-      "time" : {
-        "start" : 1640703449583,
-        "stop" : 1640703449583,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "log Clicked on [[Fixed Rate] contract link",
-      "time" : {
-        "start" : 1640703449583,
-        "stop" : 1640703449584,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "get h2",
-      "time" : {
-        "start" : 1640703449584,
-        "stop" : 1640703449588,
-        "duration" : 4
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "isVisible (\"h2\")",
-      "time" : {
-        "start" : 1640703449588
+        "start" : 1640703448267
       },
       "status" : "unknown",
       "steps" : [ {
-        "name" : "get h2",
+        "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
         "time" : {
-          "start" : 1640703449588,
-          "stop" : 1640703449595,
-          "duration" : 7
+          "start" : 1640703448268,
+          "stop" : 1640703448296,
+          "duration" : 28
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       }, {
-        "name" : "assert expected **<h2.mb-10>** to be **visible**",
+        "name" : "assert expected **<p.sidebar-option-p>** to be **visible**",
         "time" : {
-          "start" : 1640703449595,
-          "stop" : 1640703449595,
+          "start" : 1640703448296,
+          "stop" : 1640703448296,
           "duration" : 0
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
-        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
-      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
     }, {
-      "name" : "get h2",
+      "name" : "get .mb-2:nth-child(1) .sidebar-option-p",
       "time" : {
-        "start" : 1640703449595,
-        "stop" : 1640703449598,
+        "start" : 1640703448296,
+        "stop" : 1640703448322,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains Home",
+      "time" : {
+        "start" : 1640703448322,
+        "stop" : 1640703448354,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log [Home] sidebar menu is being displayed",
+      "time" : {
+        "start" : 1640703448354,
+        "stop" : 1640703448357,
         "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "contains Creating a fixed contract",
+      "name" : "get :nth-child(2) > .anchor > .sidebar-link > .flex > .sidebar-option-p",
       "time" : {
-        "start" : 1640703449598,
-        "stop" : 1640703449602,
-        "duration" : 4
+        "start" : 1640703448357,
+        "stop" : 1640703448387,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     }, {
-      "name" : "log [Creating a fixed contract] header is being displayed",
+      "name" : "isVisible (\":nth-child(2) > .anchor > .sidebar-link > .flex > .sidebar-option-p\")",
       "time" : {
-        "start" : 1640703449602,
-        "stop" : 1640703449604,
+        "start" : 1640703448387
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get :nth-child(2) > .anchor > .sidebar-link > .flex > .sidebar-option-p",
+        "time" : {
+          "start" : 1640703448388,
+          "stop" : 1640703448422,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<p.sidebar-option-p>** to be **visible**",
+        "time" : {
+          "start" : 1640703448421,
+          "stop" : 1640703448421,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "get :nth-child(2) > .anchor > .sidebar-link > .flex > .sidebar-option-p",
+      "time" : {
+        "start" : 1640703448422,
+        "stop" : 1640703448448,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains Create A Contract",
+      "time" : {
+        "start" : 1640703448448,
+        "stop" : 1640703448485,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log [Create A Contract] sidebar menu is being displayed",
+      "time" : {
+        "start" : 1640703448485,
+        "stop" : 1640703448487,
         "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get [theme=\"primary\"] > div",
+      "time" : {
+        "start" : 1640703448487,
+        "stop" : 1640703448515,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "isVisible (\"[theme=\"primary\"] > div\")",
+      "time" : {
+        "start" : 1640703448515
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get [theme=\"primary\"] > div",
+        "time" : {
+          "start" : 1640703448515,
+          "stop" : 1640703448544,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<div>** to be **visible**",
+        "time" : {
+          "start" : 1640703448543,
+          "stop" : 1640703448543,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "log [View My Contract] button is being displayed",
+      "time" : {
+        "start" : 1640703448544,
+        "stop" : 1640703448546,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get .toggle-big-background",
+      "time" : {
+        "start" : 1640703448546,
+        "stop" : 1640703448577,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "isVisible (\".toggle-big-background\")",
+      "time" : {
+        "start" : 1640703448577
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get .toggle-big-background",
+        "time" : {
+          "start" : 1640703448577,
+          "stop" : 1640703448617,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "assert expected **<div.toggle-big-background>** to be **visible**",
+        "time" : {
+          "start" : 1640703448617,
+          "stop" : 1640703448617,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "log [Paid This Month] slider button is being displayed",
+      "time" : {
+        "start" : 1640703448617,
+        "stop" : 1640703448619,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 14,
-    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 24
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -1786,6 +1930,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5ef9367831a7e99e.json",
+  "source" : "c8800e04d64eb145.json",
   "parameterValues" : [ ]
 }

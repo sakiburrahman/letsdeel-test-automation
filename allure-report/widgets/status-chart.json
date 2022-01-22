@@ -1,5 +1,5 @@
 [ {
-  "uid" : "de8c29a88f67003",
+  "uid" : "32960292d08d8ef1",
   "name" : "Verify Created fixed rate contract should be listed in contracts grid",
   "time" : {
     "start" : 1640703461120,
@@ -9,17 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "133b55bd0f9595e",
-  "name" : "Should be able to create a new fixed rate contract",
-  "time" : {
-    "start" : 1640703449610,
-    "stop" : 1640703461031,
-    "duration" : 11421
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ef9367831a7e99e",
+  "uid" : "40cee63a64910d79",
   "name" : "Should be able to navigate fixed rate contract page",
   "time" : {
     "start" : 1640703449386,
@@ -29,7 +19,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4845e9148854f174",
+  "uid" : "c8800e04d64eb145",
+  "name" : "Should display home page after successfull login",
+  "time" : {
+    "start" : 1640703448131,
+    "stop" : 1640703448620,
+    "duration" : 489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d1296609e7c50c0",
   "name" : "Should be able to navigate contract type page",
   "time" : {
     "start" : 1640703448822,
@@ -39,12 +39,12 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "312b20f58a2bc3aa",
-  "name" : "Should display home page after successfull login",
+  "uid" : "18fe83527f5eb4af",
+  "name" : "Should be able to create a new fixed rate contract",
   "time" : {
-    "start" : 1640703448131,
-    "stop" : 1640703448620,
-    "duration" : 489
+    "start" : 1640703449610,
+    "stop" : 1640703461031,
+    "duration" : 11421
   },
   "status" : "passed",
   "severity" : "normal"

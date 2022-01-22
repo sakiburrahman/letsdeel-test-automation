@@ -1,35 +1,5 @@
 [ {
-  "uid" : "4845e9148854f174",
-  "name" : "Should be able to navigate contract type page",
-  "time" : {
-    "start" : 1640703448822,
-    "stop" : 1640703449366,
-    "duration" : 544
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ef9367831a7e99e",
-  "name" : "Should be able to navigate fixed rate contract page",
-  "time" : {
-    "start" : 1640703449386,
-    "stop" : 1640703449604,
-    "duration" : 218
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "312b20f58a2bc3aa",
-  "name" : "Should display home page after successfull login",
-  "time" : {
-    "start" : 1640703448131,
-    "stop" : 1640703448620,
-    "duration" : 489
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "133b55bd0f9595e",
+  "uid" : "18fe83527f5eb4af",
   "name" : "Should be able to create a new fixed rate contract",
   "time" : {
     "start" : 1640703449610,
@@ -39,12 +9,42 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "de8c29a88f67003",
+  "uid" : "7d1296609e7c50c0",
+  "name" : "Should be able to navigate contract type page",
+  "time" : {
+    "start" : 1640703448822,
+    "stop" : 1640703449366,
+    "duration" : 544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32960292d08d8ef1",
   "name" : "Verify Created fixed rate contract should be listed in contracts grid",
   "time" : {
     "start" : 1640703461120,
     "stop" : 1640703461786,
     "duration" : 666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8800e04d64eb145",
+  "name" : "Should display home page after successfull login",
+  "time" : {
+    "start" : 1640703448131,
+    "stop" : 1640703448620,
+    "duration" : 489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40cee63a64910d79",
+  "name" : "Should be able to navigate fixed rate contract page",
+  "time" : {
+    "start" : 1640703449386,
+    "stop" : 1640703449604,
+    "duration" : 218
   },
   "status" : "passed",
   "severity" : "normal"
